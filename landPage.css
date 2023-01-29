@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(251, 251, 251);
+}
+
+nav{
+    background-color: white;
+    text-decoration: none;
+    /* gap: 2; */
+}
+
+.first-container{
+    background: rgba(0, 0, 0, 0.7) url('../img/Background.jpg');
+    padding: 23px;
+    display: flex;
+    gap: 2;
+}
+ul{
+    display: flex;
+}
+
+.list{
+ 
+    /* margin-left: 54px; */
+    
+    margin: 32px;
+    margin-top: 12px;
+    margin-left: 54px;
+    /* padding: 24px; */
+
+
+}
+
+.link{
+    color: black;
+    display: flex;
+    /* padding: 24px; */
+   font-size: 22px;
+   font-weight: bold;
+    text-decoration: none;
+}
+#company{
+   margin-top: 9px;
+    font-size: 27px;
+    margin: 4px;
+    display: flex;
+}
+
+.input{
+    height: 32px;
+    width: 201px;
+    border-radius: 6px;
+    border: 2px solid black;
+    margin-top: 7px;
+    padding: 5px;
+    /* flex-wrap: wrap; */
+    margin-right: 24px;
+    margin-left: 390px;
+    box-shadow: 1px 4px 17px -5px rgb(0 0 0 / 75%)
+    /* display: flex; */
+}
+
+#icon{
+    padding: 1px;
+    margin-top: 24px;
+    font-size: 30px;
+}
+
+img{
+object-fit: cover;
+margin: 46px;
+}
+
+.next{
+    display: flex;
+}
+.text{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 43px;
+
+}
+
+.link:hover {
+    color: orange;
+  }
+  .l{
+    text-decoration: none;
+    color: black;
+  }
